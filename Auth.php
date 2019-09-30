@@ -1,8 +1,5 @@
 <?php
 
-namespace App\Http\Services\eID_Me_OpenID;
-
-
 class eID_Me_Auth
 {
     /**
