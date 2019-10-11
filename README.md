@@ -111,7 +111,7 @@ The required params that must be passed in the array are:
 ### ID Token Request ###
 
 
-Upon receiveing the request at the callback endpoint containing the authorization code, retrieve the `state` and `nonce` parameters from the original request, and pass them in an array to the `eID_Me_Auth` constructor. If `client_id`, `client_secret` and `redirect_uri` are not set in the `config_params.php` file, they should be passed as well.
+Upon receiving the request at the callback endpoint containing the authorization code, retrieve the `state` and `nonce` parameters from the original request, and pass them in an array to the `eID_Me_Auth` constructor. If `client_id`, `client_secret` and `redirect_uri` are not set in the `config_params.php` file, they should be passed as well.
 
 Then call the `getIdToken()` function to retreive the ID Token payload containing `eID-Me claims`.
 
